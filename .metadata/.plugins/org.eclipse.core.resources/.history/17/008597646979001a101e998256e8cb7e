@@ -1,0 +1,28 @@
+# -*- coding:utf-8 -*-
+
+# pip install beautifulsoup4
+
+from bs4 import BeautifulSoup
+
+import urllib.request
+
+resp = urllib.request.urlopen('https://movie.naver.com/movie/running/current.nhn')
+soup = BeautifulSoup(resp, 'html.parser')
+
+soup.find_all('dl', limit=50)
+
+#print(soup)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

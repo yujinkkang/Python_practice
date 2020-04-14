@@ -1,0 +1,13 @@
+# -*- coding:utf-8 -*-
+# 재귀 함수 : 
+def factorial(n):
+    pass
+
+def factorialRecursion(n):
+    pass
+
+if __name__ =='__main__':
+    n = int(input('n: '))
+    res = factorialRecursion(n)
+    print('{} factorial ={}'.format(n, res))
+    print('{} factorial ={}'.format(n, factorial(n)))

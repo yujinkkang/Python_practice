@@ -1,0 +1,40 @@
+# -*- coding:utf-8 -*-
+
+subject =['java','javascript','python']
+for i in subject: #덩어리 안에 있는 하나 반복하자
+    print(i)
+    
+for i in subject:
+    print(i,end=' ')
+else:
+    print('\n재밌다.') #반복문에 else가 붙으면 반복문이 정상적으로 실행되었을때 else문 시행
+    
+for i in range(1,100):
+    print(i,end=', ')
+else:
+    print(100)
+    
+print('--------------')
+
+for i in range(2,10):
+    print('<'+str(i)+'단>')
+    for j in range(1,10):
+        print(i,'*',j,'=',(i*j), sep=' ')
+print()
+        
+
+for i in range(10,0,-1):
+   print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+

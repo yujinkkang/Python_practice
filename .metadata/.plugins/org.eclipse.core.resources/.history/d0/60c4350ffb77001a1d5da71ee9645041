@@ -1,0 +1,4 @@
+# -*- coding:utf-8 -*-
+
+n = input('n 입력 :')
+print(n)

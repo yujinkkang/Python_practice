@@ -1,0 +1,11 @@
+# -*- coding:utf-8 -*-
+
+subject =['java','javascript','python']
+for i in subject: #덩어리 안에 있는 하나 반복하자
+    print(i)
+    
+for i in subject:
+    print(i,end=' ')
+else:
+    print('\n재밌다.')
+

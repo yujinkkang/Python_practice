@@ -1,0 +1,20 @@
+# -*- coding:utf-8 -*-
+
+def coffee():
+    #잔돈 계산
+    #prn 호출(커피 잔 수, 잔돈)
+    pass
+def prn():
+    pass
+def start():
+    # 커피 잔 수 입력
+    n = input('n 입력: ')
+    print(n,'잔')
+    
+    # 돈 입력 받는다
+    # coffee 함수에 잔수와 돈 전달하면서 호출
+    pass
+
+
+if __name__ =='__main__':
+    start()

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	
+	onclick=function(){
+		// flask server에 요청하여, json 받아서, table에 뿌리자.
+		
+		
+	}
+</script>
+
+</head>
+<body>
+
+	<table border="1">
+		<thead>
+			<tr>
+				<th>TITLE</th>
+				<th>STAR</th>
+			</tr>
+		</thead>
+		<tbody id="tbody"></tbody>
+	</table>
+
+</body>
+</html>

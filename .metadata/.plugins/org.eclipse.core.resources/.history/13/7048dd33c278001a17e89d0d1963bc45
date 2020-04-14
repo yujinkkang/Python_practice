@@ -1,0 +1,19 @@
+# -*- coding:utf-8 -*-
+
+#lotto
+
+import random
+
+def lotto():
+    lotto = set(range(1,46))
+    print(lotto)
+
+
+
+if __name__ =='__main__':
+    lotto()
+
+
+
+
+

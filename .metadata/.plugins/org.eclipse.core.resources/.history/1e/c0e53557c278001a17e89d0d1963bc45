@@ -1,0 +1,22 @@
+# -*- coding:utf-8 -*-
+
+#lotto
+
+import random
+
+def lotto():
+    lotto = set()
+    while len(lotto) <=5:
+        ran = random.randint(1,45)
+        lotto.add(ran)
+    print(list(lotto))
+
+
+
+if __name__ =='__main__':
+    lotto()
+
+
+
+
+

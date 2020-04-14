@@ -1,0 +1,36 @@
+# -*- coding:utf-8 -*-
+
+def coffee(quantity, price):
+    #잔돈 계산(커피 한잔에 300원)
+    change = price -(300*quantity)
+    
+    #prn 호출(커피 잔 수, 잔돈)
+    if change >=0:
+        prn(quantity, change)
+    else:
+        prn()
+    
+def prn(quantity=0, price=0):
+    #출력
+    if quantity== 0 & change == 0:
+         print('돈이 부족합니다.')
+    else:
+        print('커피',quantity,'잔이 나왔습니다. 잔돈은',change,'입니다')
+    #커피 * 잔이 나왔습니다. 잔돈은 x원 입니다.
+   
+   
+    
+
+def start():
+    # 커피 잔 수 입력
+    q = int(input('몇잔: '))
+    
+    # 돈 입력 받는다
+    p = int(input('얼마 넣을 것인지: '))
+ 
+    # coffee 함수에 잔수와 돈 전달하면서 호출
+    coffee(q, p)
+    
+
+if __name__ =='__main__':
+    start()

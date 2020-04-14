@@ -1,0 +1,22 @@
+# -*- coding:utf-8 -*-
+
+def func01():
+    pass
+
+
+def func02():
+    print('함수 02 입니다.')
+    
+if __name__ == '__main__':
+    # main: 프로그램의 주 진입점
+    func02()
+    
+def func03():
+    return '함수 03입니다.'
+
+if __name__ =='__main__':
+    #main : 프로그램의 주진입점
+    func02()
+    str01 = func03()
+    print(str01)
+    

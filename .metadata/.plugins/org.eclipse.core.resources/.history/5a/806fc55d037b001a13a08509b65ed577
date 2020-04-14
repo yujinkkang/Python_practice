@@ -1,0 +1,19 @@
+# -*- coding:utf-8 -*-
+# 재귀 함수 : 계속 나를 호출하기 때문에 어떤 순간에 종료시키는 코드를 만들어놓는게 필요하다. 아니면 무한 루프에 빠지게 된다.
+# factorialRecursion안에서 또 factorialRecursion을 호출하는 걸 만들어라
+def factorial(n):
+    fac = 1;
+    for i in range(n, 0, -1):
+        fac *= i
+    
+    return fac    
+
+def factorialRecursion(n):
+    factorialRecursion(n)
+
+
+if __name__ =='__main__':
+    n = int(input('n: '))
+    res = factorialRecursion(n)
+    print('{} factorial ={}'.format(n, res))
+    print('{} factorial ={}'.format(n, factorial(n)))

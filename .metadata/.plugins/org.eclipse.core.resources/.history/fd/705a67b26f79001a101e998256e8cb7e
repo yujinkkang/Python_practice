@@ -1,0 +1,27 @@
+# -*- coding:utf-8 -*-
+
+# pip install requests
+
+import requests
+from bs4 import BeautifulSoup
+
+resp = requests.get('https://comic.naver.com/webtoon/weekdayList.nhn?week=')
+soup = BeautifulSoup(resp.text,'html.parser')
+
+webtoon_list = soup.find_all('ul',class_='img_list')
+print(webtoon_list)
+
+for webtoons in webtoon_list:
+    li = webtoons.find('li')
+    print(li)
+    
+
+'''
+for webtoon in webtoon_list:
+    title = webtoon.find('a').text
+    star = webtoon.find('strong').text
+    print('{} [{}]'.format(title, star))
+'''
+#print(soup)
+
+

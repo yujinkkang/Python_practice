@@ -1,0 +1,51 @@
+#산술연산
+a=21
+b=2
+
+print(a+b)
+print(a-b)
+print(a/b)
+# 몫(floor division)
+print(a//b)
+# 나머지
+print(a%b)
+print(a*b)
+# a의 b제곱
+print(a**b)
+
+#비교연산
+a,b =5,3
+print(a ==b)
+print(a!=b)
+print(a>b)
+print(a<=b)
+
+print(a is b)
+print(a is not b)
+
+print(True or False)
+print(False and True)
+print(not False)
+
+#범위연산
+list01 = list(range(100))#0부터 100전까지 만들어 줄 것
+print(list01)
+#0~99
+
+print(list01[2])
+print(list01[12:49])
+#12~48
+print(list01[12:49:3])
+#12~48 -> 3씩 중가하며 출력
+
+#[start: end] -> start ~ end-1
+#[start: end: step] -> start, start+stet, ... end-1
+
+str01 = 'Hello, World!'
+print(str01)
+print(str01[7:])
+print(str01[0:5])
+
+#reverse
+print(str01[-1])
+print(str01[].reverse)

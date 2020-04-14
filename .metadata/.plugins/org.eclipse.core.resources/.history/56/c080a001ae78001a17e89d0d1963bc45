@@ -1,0 +1,14 @@
+# -*- coding:utf-8 -*-
+
+def coffee():
+    pass
+def prn():
+    pass
+def start():
+    # 커피 잔 수 입력
+    # 돈 입력 받는다
+    pass
+
+
+if __name__ =='__main__':
+    start()

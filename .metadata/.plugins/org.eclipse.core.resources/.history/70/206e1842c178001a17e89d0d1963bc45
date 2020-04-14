@@ -1,0 +1,14 @@
+# -*- coding:utf-8 -*-
+
+#lotto
+
+import random
+
+r1= random.randrange(1,45)
+print(r1)
+
+
+
+
+
+

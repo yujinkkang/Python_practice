@@ -1,0 +1,11 @@
+# -*- coding:utf-8 -*-
+
+hap01 = lambda a,b :a+b
+print(hap01)
+print(hap01(10,20))
+
+gob = lambda a,b:a*b
+print(gob(10,20))
+
+hap02 = lambda a,b,c: a+b+c
+print(hap02(10,20,30))

@@ -1,0 +1,20 @@
+# -*- coding:utf-8 -*-
+
+from pymongo import MongoClient
+
+client = MongoClient('127.0.0.1',27017)
+db = client.test
+score = db.score
+
+res01 = score.update_one(
+    {
+        'name':'유재석'
+    },
+    {
+        '$set':
+            {
+                'kor':100
+            }
+    }
+
+)

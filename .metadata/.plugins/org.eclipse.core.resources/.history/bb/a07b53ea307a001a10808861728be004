@@ -1,0 +1,19 @@
+# -*- coding:utf-8 -*-
+from flask import Flask, request
+app = Flask(__name__)
+
+@app.route('/',method=['GET','POST'])
+def hello_root():
+    html = '''
+        <h1>GET/POST</h1>
+        <a href="/test">get</a><br/>
+        <form action ="/test" method="post">
+            <input type="submit" value="post"/>
+        </form>
+    '''
+    
+    return html
+    
+    
+if __name__ =='__main__':
+    app.run()

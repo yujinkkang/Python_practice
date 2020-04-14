@@ -1,0 +1,24 @@
+# -*- coding:utf-8 -*-
+
+#pip install numpy        -> 수치 해석
+#pip install matplotlib   -> 그래프
+
+import numpy as np #alias(별칭)
+import matplotlib.pyplot as plt
+
+def plt01():
+    x = np.arange(0,11)
+    y = x
+    
+    plt.plot(x,y)
+    
+    plt.xlabel('x')
+    plt.ylabel('y')
+    
+    plt.legend(['y = x'])
+    
+    plt.show()
+    
+    
+if __name__ == '__main__':
+    plt01()

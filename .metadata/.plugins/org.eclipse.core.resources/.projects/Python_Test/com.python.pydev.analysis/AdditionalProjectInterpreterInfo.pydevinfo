@@ -1,0 +1,21 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Workspace_Python\.metadata\.plugins\org.eclipse.core.resources\.projects\Python_Test\com.python.pydev.analysis\v2_indexcache
+com.__init__|1586504618948219000|C:\Workspace_Python\Python_Test\com\__init__.py
+com.algo.factorial|1586506583524308000|C:\Workspace_Python\Python_Test\com\algo\factorial.py
+com.algo.__init__|1586504618974147000|C:\Workspace_Python\Python_Test\com\algo\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=com.algo.factorial
+1=C:\Workspace_Python\Python_Test\com\algo\factorial.py
+-- END DICTIONARY
+-- START TREE 1
+3
+fac|2|factorial!1^4#5*18@factorialRecursion!1^11#5*18@
+n|1|n!1^16#5*19@
+res|1|res!1^17#5*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

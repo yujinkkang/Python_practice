@@ -1,0 +1,7 @@
+# -*- coding:utf-8 -*-
+
+n = input('n 입력 :')#자바의 스캐너 같은 애
+print(n)
+print(n:-1)
+
+

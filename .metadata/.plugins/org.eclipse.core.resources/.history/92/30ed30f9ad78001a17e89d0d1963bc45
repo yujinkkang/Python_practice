@@ -1,0 +1,12 @@
+# -*- coding:utf-8 -*-
+
+def coffee():
+    pass
+def prn():
+    pass
+def start():
+    pass
+
+
+if __name__ =='__main__':
+    start()

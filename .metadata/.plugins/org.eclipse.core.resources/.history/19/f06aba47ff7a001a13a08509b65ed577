@@ -1,0 +1,13 @@
+# -*- coding:utf-8 -*-
+
+def factorial():
+    pass
+
+def factorialRecursion():
+    pass
+
+if __name__ =='__main__':
+    n = int(input('n: '))
+    res = factorialRecursion(n)
+    print('{} factorial ={}'.format(n, res))
+    print('{} factorial ={}'.format(n, factorial(n)))

@@ -1,0 +1,8 @@
+# -*- coding:utf-8 -*-
+
+# pip install requests
+
+import requests
+from bs4 import BeautifulSoup
+
+resp = requests.get('https://comic.naver.com/webtoon/weekdayList.nhn?week=')

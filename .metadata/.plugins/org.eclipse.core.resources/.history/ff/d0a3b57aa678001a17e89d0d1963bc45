@@ -1,0 +1,22 @@
+# -*- coding:utf-8 -*-
+
+# 1. for문을 사용하여 구구단 전체를 출력하는 gugu() 함수를 만들자.
+# 2. while문을 사용하여 입력된 숫자의 단만 출력하는 gugudan(x)를 만들자.
+# 3. main 만들어서 위의 두 함수를 출력하자
+
+i=0
+j=1
+for i in range(i,10,1):
+    print("<",i,"단",">")
+    for j in range(j,10,1):
+        print(i,"*",j,"=",i*j)
+        
+print()
+
+n= input('n 입력: ')
+print('<',n,'단','>')
+
+k=0
+while k<10:
+    print(n,'*',k,'=',n*k)
+    k +=1   

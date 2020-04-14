@@ -1,0 +1,23 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Workspace_Python\.metadata\.plugins\org.eclipse.core.resources\.projects\Python04\com.python.pydev.analysis\v2_indexcache
+hello.static.__init__|1586418204380945000|C:\Workspace_Python\Python04\hello\static\__init__.py
+hello.__init__|1586416622232670000|C:\Workspace_Python\Python04\hello\__init__.py
+hello.application|1586418576587773000|C:\Workspace_Python\Python04\hello\application.py
+hello.templates.__init__|1586418002895481000|C:\Workspace_Python\Python04\hello\templates\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=hello.application
+1=C:\Workspace_Python\Python04\hello\application.py
+-- END DICTIONARY
+-- START TREE 1
+4
+app|1|app!1^5#1*19@
+hel|1|hello!1^16#5*18@
+roo|1|root!1^8#5*18@
+tes|1|test!1^21#5*18@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,5 @@
+package com.mvc.mongo.dao;
+
+public class ScordMongoDao {
+
+}

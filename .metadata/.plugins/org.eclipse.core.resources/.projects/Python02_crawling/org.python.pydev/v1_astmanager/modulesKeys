@@ -1,0 +1,10 @@
+MODULES_MANAGER_V2
+crawling.__init__|C:\Workspace_Python\Python02_crawling\crawling\__init__.py
+crawling.insta.__init__|C:\Workspace_Python\Python02_crawling\crawling\insta\__init__.py
+crawling.insta.insta01|C:\Workspace_Python\Python02_crawling\crawling\insta\insta01.py
+crawling.insta.insta02|C:\Workspace_Python\Python02_crawling\crawling\insta\insta02.py
+crawling.kh.__init__|C:\Workspace_Python\Python02_crawling\crawling\kh\__init__.py
+crawling.kh.teacher|C:\Workspace_Python\Python02_crawling\crawling\kh\teacher.py
+crawling.naver.__init__|C:\Workspace_Python\Python02_crawling\crawling\naver\__init__.py
+crawling.naver.movie|C:\Workspace_Python\Python02_crawling\crawling\naver\movie.py
+crawling.naver.webtoon|C:\Workspace_Python\Python02_crawling\crawling\naver\webtoon.py

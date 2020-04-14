@@ -1,0 +1,7 @@
+# -*- coding:utf-8 -*-
+
+# pip install selenium
+from selenium import webdriver
+from bs4 import BeautifulSoup
+
+# chrome version에 맞는 webdriver 필요!

@@ -1,0 +1,28 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Workspace_Python\.metadata\.plugins\org.eclipse.core.resources\.projects\Python03_flask\com.python.pydev.analysis\v2_indexcache
+hello.__init__|1586414549611644000|C:\Workspace_Python\Python03_flask\hello\__init__.py
+hello.hello01|1586414901113214000|C:\Workspace_Python\Python03_flask\hello\hello01.py
+hello.hello02|1586415299984943000|C:\Workspace_Python\Python03_flask\hello\hello02.py
+hello.hello03|1586415551155240000|C:\Workspace_Python\Python03_flask\hello\hello03.py
+hello.hello04|1586416452290878000|C:\Workspace_Python\Python03_flask\hello\hello04.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+1=C:\Workspace_Python\Python03_flask\hello\hello02.py
+5=C:\Workspace_Python\Python03_flask\hello\hello03.py
+3=C:\Workspace_Python\Python03_flask\hello\hello01.py
+7=C:\Workspace_Python\Python03_flask\hello\hello04.py
+4=hello.hello01
+2=hello.hello02
+6=hello.hello03
+8=hello.hello04
+-- END DICTIONARY
+-- START TREE 1
+2
+app|4|app!1^4#1*19@app!3^6#1*35@app!5^4#1*51@app!7^3#1*67@
+hel|7|hello_root!7^6#5*66@hello_root!5^7#5*50@hello_root!1^7#5*18@hello_test!7^17#5*66@hello_flask!1^11#5*18@hello!3^10#5*34@hello_id!5^11#5*50@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

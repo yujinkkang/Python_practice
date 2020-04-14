@@ -1,0 +1,44 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Workspace_Python\.metadata\.plugins\org.eclipse.core.resources\.projects\Python02_crawling\com.python.pydev.analysis\v2_indexcache
+crawling.kh.__init__|1586349030306089000|C:\Workspace_Python\Python02_crawling\crawling\kh\__init__.py
+crawling.naver.movie|1586331798384777000|C:\Workspace_Python\Python02_crawling\crawling\naver\movie.py
+crawling.naver.webtoon|1586431951734857000|C:\Workspace_Python\Python02_crawling\crawling\naver\webtoon.py
+crawling.kh.teacher|1586349649666225000|C:\Workspace_Python\Python02_crawling\crawling\kh\teacher.py
+crawling.naver.__init__|1586329231313494000|C:\Workspace_Python\Python02_crawling\crawling\naver\__init__.py
+crawling.__init__|1586329231306429000|C:\Workspace_Python\Python02_crawling\crawling\__init__.py
+crawling.insta.__init__|1586335201313425000|C:\Workspace_Python\Python02_crawling\crawling\insta\__init__.py
+crawling.insta.insta02|1586336630238835000|C:\Workspace_Python\Python02_crawling\crawling\insta\insta02.py
+crawling.insta.insta01|1586335910975723000|C:\Workspace_Python\Python02_crawling\crawling\insta\insta01.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+8=crawling.naver.movie
+7=C:\Workspace_Python\Python02_crawling\crawling\naver\movie.py
+3=C:\Workspace_Python\Python02_crawling\crawling\naver\webtoon.py
+4=crawling.naver.webtoon
+5=C:\Workspace_Python\Python02_crawling\crawling\insta\insta01.py
+1=C:\Workspace_Python\Python02_crawling\crawling\insta\insta02.py
+2=crawling.insta.insta02
+6=crawling.insta.insta01
+-- END DICTIONARY
+-- START TREE 1
+14
+div|1|div!1^18#1*19@
+dl|1|dl!3^15#1*35@
+dri|1|driver!1^8#1*19@
+ins|1|insta_list!5^12#1*51@
+lst|1|lst!3^17#1*35@
+mov|1|movies!7^12#1*67@
+res|5|resp!3^10#1*35@resp!5^9#1*51@res!3^28#1*35@resp!7^9#1*67@res_json!3^30#1*35@
+sou|4|soup!1^16#1*19@soup!3^11#1*35@soup!5^10#1*51@soup!7^10#1*67@
+sta|2|star!3^21#5*35@star!7^18#5*67@
+tag|2|tag!5^6#1*51@tag!1^10#1*19@
+tit|2|title!3^20#5*35@title!7^17#5*67@
+tmp|1|tmp!3^23#5*35@
+url|2|url!5^7#1*51@url!1^11#1*19@
+web|1|webtoon_list!3^13#1*35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

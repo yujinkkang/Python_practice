@@ -1,0 +1,30 @@
+# -*- coding:utf-8 -*-
+
+from flask import Flask, render_template
+from bs4 import BeautifulSoup
+import requests
+import json
+
+resp= requests.get('https://movie.naver.com/movie/running/current.nhn')
+soup = BeautifulSoup(resp.text, 'html.parser')
+
+app =Flask(__name__)
+
+@app.route('/')
+def root():
+    return render_template('index.html')
+
+@app.route('/crawling')
+def crawling():
+    #naver movie list를 crawling 해오자
+    movie_list = soup.find_all('dl',class_='lst_dsc')
+    #crawling 된 데이터를 dictionary[{title:제목, star: 별점},...}]로 저장하자
+    for movie in movie_list:
+        title= movie.find('a').text
+        star= movie.find('span',class_='num').text
+        print('{} [{}]'.format(title, star))
+    #json으로 변환하여 리턴하자
+    pass
+
+if __name__ =='__main__':
+    app.route('localhost',port='8585')

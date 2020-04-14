@@ -1,0 +1,6 @@
+# -*- coding:utf-8 -*-
+#import math
+# math라는 module(=library)
+
+from math import pi
+#math module의 pi만 가져온다.

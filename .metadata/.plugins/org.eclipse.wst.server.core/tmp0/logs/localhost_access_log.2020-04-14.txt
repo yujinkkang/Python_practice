@@ -1,0 +1,4 @@
+127.0.0.1 - - [14/Apr/2020:19:46:38 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [14/Apr/2020:19:46:39 +0900] "GET /mongo/WEB-INF/classes/com/mvc/mongo/HomeController.java HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [14/Apr/2020:19:46:40 +0900] "GET /favicon.ico HTTP/1.1" 404 761
+0:0:0:0:0:0:0:1 - - [14/Apr/2020:19:47:15 +0900] "GET /mongo/ HTTP/1.1" 200 164

@@ -1,0 +1,6 @@
+#split
+str01 = "Hello, World\nHello, Python!"
+print(str01)
+
+arr01 = str01.split('')
+print(arr01[1])

@@ -1,0 +1,17 @@
+# -*- coding:utf-8 -*-
+# controller
+
+from flask import Flask, request, render_template
+app = Flask(__name__)
+
+@app.route('/')
+def root():
+    return '''
+        <a href="/hello">hello</a><br/>
+        <input type="button" value="hello" onclick="location.href='/hello/name'"> 
+    '''
+    
+@app.route('/hello')
+@app.route('/hello/<name>')
+def hello(name=None):
+    return render_template('hello.html', name=name)

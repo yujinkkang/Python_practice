@@ -1,0 +1,5 @@
+# -*- coding:utf-8 -*-
+# controller
+
+from flask import Flask, request, render_template
+app = Flask(__name__)
